@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root { 
+    --bs-body-color:#fff;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../image/astronaut-spacewalk-earth-stockcake.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    box-shadow: 2px 2px 20px 1px black;
+    background-image: linear-gradient(rgba(0, 0,0, 0.8),rgba(0, 0, 0, 0.8));
+}
+
+.form-control { 
+    background-color: transparent;
+}
+::placeholder { 
+    color: white !important;
+}
+.form-control:focus { 
+    background-color: transparent;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+a { 
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: underline;
+}
